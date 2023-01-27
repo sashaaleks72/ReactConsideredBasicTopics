@@ -1,0 +1,16 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination__item {
+    margin: 0 5px;
+}
+
+.pagination__item_curr {
+    background-color: darkcyan;
+}
+
+.pagination__item:nth-last-child() {
+    margin: 0
+}

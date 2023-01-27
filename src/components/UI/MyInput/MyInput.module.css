@@ -1,0 +1,12 @@
+.myInput {
+    width: 100%;
+    border: 1px solid rgb(15, 150, 173);
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+
+.myInput:nth-last-child() {
+    margin-bottom: 0px;
+}
